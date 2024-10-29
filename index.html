@@ -7,5 +7,16 @@
 </head>
 <body>
     <h1>This is an Example</h1>
+    <h2 id="num"></h2>
+    <button onclick="add()">Add your count</button>
 </body>
+
+<script>
+    let i = 0;
+    
+    function add() {
+        i++;
+        document.getElementById("num").innerHTML=i;
+    }
+</script>
 </html>
